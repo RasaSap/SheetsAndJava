@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "object",
+                  "properties": {
+                    "boolean": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "boolean"
+                  ]
+                }
+              },
+              "required": [
+                "value"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "object",
+                  "properties": {
+                    "boolean": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "boolean"
+                  ]
+                }
+              },
+              "required": [
+                "value"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "object",
+                  "properties": {
+                    "boolean": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "boolean"
+                  ]
+                }
+              },
+              "required": [
+                "value"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "formula": {
+                  "type": "object",
+                  "properties": {
+                    "or": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "reference": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "reference"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "reference": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "reference"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "reference": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "reference"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "or"
+                  ]
+                }
+              },
+              "required": [
+                "formula"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "data"
+  ]
+}
